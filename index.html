@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeShow - Todos os animes aqui</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Poppins:wght@200 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AnimeShow</h1>
+        </div>
+    </header>
+        <section class="login">
+            <div class="container">
+                    <img src="./Imagens/Design sem nome.png" alt="Página inicial"/>
+                    <h2>Iniciar sessão</h2>
+                    <p>
+                        Já possui uma conta? Faça login aqui embaixo.
+                    </p>
+                    <div class="logando">    
+                        <form>
+                            <label for="usuario">E-mail ou Nome de Usuário</label>
+                            <input id="usuario" type="email" required/>
+                            <label for="senhaa">Senha</label>
+                            <input id="senhaa" type="password" required/>
+                        </form>
+                    </div>
+                <div class="iniciar">
+                    <button type="submit">
+                        Iniciar sessão
+                    </button>
+                    <a href="./senha.html">Esqueceu sua senha?</a>
+                </div>
+        </section>
+        <section class="cadastro">
+            <div class="container">
+                <div class="divs">
+                    <h2>Registra-se gratuitamente</h2>
+                        <p>
+                            Venha para AnimeShow! Basta um unico clique!
+                        </p> 
+                    <div class="box">
+                        <div class="cadastrando">
+                            <form>
+                                <label for="nome">Nome de usuário</label>
+                                <input id="nome" type="text"  required/>
+                                <label for="email">Endereço de E-mail</label>
+                                <input id="email" type="email" required/>
+                            </form>
+                        </div>
+                        <div class="idade-senha">
+                            <form>
+                                <label for="senha">Senha</label>
+                                <input id="senha" type="password" required/>
+                                <label for="nascimento">Data de nascimento</label>
+                                <input id="nascimento" type="date" required/>
+                            </form>
+                        </div>
+                    </div>
+                        <div class="geni">
+                            <form>
+                                <input type="radio" name="sexo" id="masculino" /> <label for="masculino" >Masculino</label> 
+                                <input type="radio" name="sexo" id="feminino" /> <label for="feminino" >Feminino</label>
+                                <input type="radio" name="sexo" id="outro" /> <label for="outro" >Outro</label>
+                            <form>
+                            </form>
+                                <input id="caixa" type="checkbox" /> <label for="caixa">Sim, mantenha-me informado das novidades do AnimeShow.</label>
+                            </form>
+                        </div>
+                        <div class="iniciar">
+                            <button type="submit">
+                                Cadastrar
+                            </button>   
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </section>
+        <footer>
+        <div class="container">
+            <div class="smalls">
+                <p>
+                    <small>Ao criar a conta, você declara que possui mais de 16 anos de idade e está de acordo com os 
+                        <a href="./Termos/AnimeShow - Termos de Serviço.pdf">Termos de Serviço</a> &nbsp;&amp; 
+                        <a href="./Termos/AnimeShow - Política de Privacidade.pdf">Política de Privacidade</a>
+                    </small>
+                </p>
+                <p>
+                    &copy; AnimeShow - Todos os direitos reservados - 2022
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h1,
+p,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    width: 200px;
+    height: 120px;
+    display: flex;
+}
+
+.box form {
+    padding: 8px;
+}
+
+.box input,
+.logando input {
+    width: 265px;
+    padding: 8px;
+}
+
+.geni form {
+    margin: 5px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto
+}
+
+h2 {
+    padding: 10px;
+    color: #555555
+}
+
+img {
+    width: 100%
+}
+
+.logando {
+    width: 200px;
+    height: 135px;
+    display: flex;
+    padding: 8px;
+}
+
+header h1 {
+    color: #f78c25;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.geni {
+    padding: 10px;
+}
+
+.smalls {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.iniciar button {
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: #f78c25;
+    border: none;
+}
+
+.iniciar {
+    height: 80px;
+}
+
+.iniciar button:hover {
+    background-color: #fc7a00;
+}
+
+input:focus {
+    outline-color: #fc7a00;
+}
+
+.iniciar a {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    margin-left: 10px;
+    padding: 10px;
+}
